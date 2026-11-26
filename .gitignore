@@ -1,0 +1,9 @@
+﻿.venv/
+out/
+config.local.json
+webprofile/
+*.pyc
+__pycache__/
+__pycache__/
+.DS_Store
+Thumbs.db

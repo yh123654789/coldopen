@@ -1,0 +1,33 @@
+{
+  "_readme": [
+    "坐标全部是「相对窗口宽高的比例」(0..1)，所以在 1080p / 1440p / 4K、125% 或 150% 缩放下都能用。",
+    "换机器后不要手改这些数字，跑一次： python scripts/dy.py calibrate",
+    "calibrate 会依次让你把鼠标指到控件上按回车，自动写成 config.local.json（优先级高于本文件）。",
+    "前提：先用 python scripts/dy.py front 把窗口规整成 window.rect 指定的尺寸，因为布局会随窗口大小重排。"
+  ],
+  "window": {
+    "rect": "0,0,1440,960",
+    "title": "抖音"
+  },
+  "coords": {
+    "upload_icon": [0.8354, 0.0177],
+    "avatar_icon": [0.8458, 0.0177],
+    "sidebar_friends": [0.0451, 0.276],
+    "sidebar_my": [0.0451, 0.3167],
+    "upload_video_button": [0.6667, 0.7198],
+    "title_field": [0.5972, 0.2729],
+    "desc_field": [0.5972, 0.3594],
+    "cover_horizontal": [0.4632, 0.7656],
+    "cover_vertical": [0.5521, 0.7656],
+    "cover_dialog_confirm": [0.9326, 0.8802],
+    "publish_button": [0.2868, 0.8385],
+    "draft_leave": [0.3771, 0.8385]
+  },
+  "text": {
+    "title_sample": "地海",
+    "title_pinyin": "dh",
+    "desc_sample": "地海之下没有天空。查尔斯摊开海图，想找到通往地表的出口——可这艘「活船」，似乎比他更清楚该往哪里开。\n\nAI 生成短剧，人物、场景与配音均由 AI 创作\n#地海 #AI创作 #AI短剧 #悬疑 #科幻",
+    "nickname_sample": "地海剧场",
+    "bio_sample": "《地海》AI 生成悬疑短剧 · 连载中\n查尔斯带着钢铁左手，在地海之下寻找通往地表的出口\n每周更新｜点合集追更｜内容由 AI 创作"
+  }
+}
