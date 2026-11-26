@@ -1,8 +1,11 @@
-# douyin-publish
+# ColdOpen · 冷开场
 
-**抖音短剧发布工具箱**：给视频贴电影片头卡、出海报封面、驱动抖音桌面客户端完成上传与填表。Windows，Python 3.10+。
+**短剧开播工具箱**：给视频贴电影式片头卡、出竖版海报封面、驱动抖音桌面客户端完成上传与填表。Windows，Python 3.10+。
 
-> 这是把一次真实发布（113MB 短剧、4.5 分钟、AI 生成）从头跑通之后，把踩到的坑固化成工具的结果。所有「为什么这么绕」的原因都写在 [docs/PITFALLS.md](docs/PITFALLS.md)。
+> **cold open** 是美剧术语——片头不铺垫，直接把片名砸给你。这个工具做的正是这件事：让一条 AI 生成的短剧，一开播就有「剧」的样子。
+>
+> 不写代码？先看 **[它是怎么工作的](docs/HOW-IT-WORKS.md)**（大白话版原理）。
+> 想避开我们踩过的坑？看 **[PITFALLS.md](docs/PITFALLS.md)**（含所有失败的尝试）。
 
 ## 它能做什么
 
@@ -29,8 +32,8 @@
 ## 安装
 
 ```powershell
-git clone https://github.com/<you>/douyin-publish.git
-cd douyin-publish
+git clone https://github.com/yh123654789/coldopen.git
+cd coldopen
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
@@ -145,6 +148,7 @@ scripts/
 examples/
   publish_one.ps1        一条命令跑完整流程
 docs/
+  HOW-IT-WORKS.md        大白话原理（给不写代码的人）
   PITFALLS.md            所有坑和无效尝试（省你时间）
 out/                     运行产物
 ```

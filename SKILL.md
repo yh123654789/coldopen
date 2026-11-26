@@ -3,8 +3,9 @@ name: douyin-publish
 description: 在抖音（桌面客户端 / 网页版）发布短剧视频：合成电影片头卡、生成封面、上传、填标题简介话题、发布；也用于改抖音昵称和个人简介。用户说“发抖音”“发布作品”“把这个短剧发出去”“改抖音昵称/简介”“矩阵号日更”时用。
 ---
 
-# 抖音发布（douyin-publish）
+# ColdOpen · 冷开场（douyin-publish）
 
+仓库：https://github.com/yh123654789/coldopen
 素材目录约定：`D:\Projects\douyin-auto`（脚本 + 输出），素材由用户指定。
 
 ## 一、环境事实（2026-11 实测，先读这段再动手）
